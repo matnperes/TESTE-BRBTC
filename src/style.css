@@ -1,0 +1,54 @@
+*{
+  margin: 0 auto;
+}
+
+body{
+  background: #282A36;
+}
+
+.cronometro{
+  width: 500px;
+  background: #ffff;
+  margin-top: 350px;
+  border-radius: 50px;
+  text-align: center;
+  color: #282A36;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px;
+}
+
+#contador{
+  font-size: 50px;
+}
+
+.btns{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.btn{
+  border-radius: 50px;
+  border: none;
+  padding: 25px;
+  color: #282A36;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.btn:hover{
+  border: 2px solid #282A36;
+}
+
+.verde{
+  background: #10FF74;
+}
+
+.amarelo{
+  background: #FECA5C;
+}
+
+.vermelho{
+  background: #DE6359;
+}
